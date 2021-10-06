@@ -1,0 +1,120 @@
+body{
+  background-color: #96a61f;
+}
+header, .alert{
+  z-index: 100;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #f29441;
+}
+
+a {
+  color: #261e0f;
+  text-decoration: underline;
+}
+
+
+.description{
+  height: 25px;
+  overflow: hidden;
+  transition: height .3s ease-in .3s;
+}
+.description:hover{
+  height: 80px;
+}
+.carrito{
+  min-height: 80vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  width: 100%;
+}
+.table__productos{
+  display: flex;
+}
+.table__productos > img{
+  width: 9rem;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-right: 20px;
+}
+.table__cantidad > input{
+  width: 40px;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.hide, .remove{
+  display: none;
+}
+
+.bg-dark {
+  background-color:white!important;
+ 
+}
+
+.card-text{
+
+  color:#261e0f!important;
+}
+
+.text-primary {
+  color: #261e0f !important;
+}
+
+.rounded {
+ 
+border: 2px solid #F29441;
+  padding: 10px;
+  border-radius: 20px;
+
+
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #f29441;
+  border-color: #f29441;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color:#f29441;
+  border-color:#f29441;
+}
+
+.table-dark {
+  --bs-table-bg: #fff;
+  --bs-table-striped-bg: #261e0f;
+  --bs-table-striped-color: #fff;
+  --bs-table-active-bg: #fff;
+  --bs-table-active-color: #fff;
+  --bs-table-hover-bg: #fff;
+  --bs-table-hover-color: #fff;
+  color: #fff;
+  border-color: #fff;
+}
+  
+.text-primary {
+  color: #fff;
+}
+
+.text-primary {
+  color: #261e0f!important;
+}
+
+h6{
+
+  color: #261e0f
+}
+
+#my-form-button{
+  color: #f29441 !important;
+  border-color:#f29441;
+  
+
+}
